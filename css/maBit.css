@@ -1,3 +1,7 @@
+
+h1, nav, li{
+    display: inline-block;
+}
 /*-----------------------Header---------------*/
 header{
     width:1275px;
@@ -5,6 +9,11 @@ header{
     margin: auto;
     padding: 10px 137.5px;
     box-sizing: border-box;
+    }
+    /*-----------------------Main---------------*/
+.Part01{
+    background-image: url("../img/banner.png");
+    background-color: rgb(39, 174, 97);
 }
 
 /*section1 = h825px
@@ -22,7 +31,6 @@ sect
 
 /*-----------------------FIn Header---------------*/
 
-/*-----------------------Main---------------*/
 
 main{
 
