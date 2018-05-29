@@ -1,0 +1,56 @@
+/*-----------------------Header---------------*/
+header{
+    width:1275px;
+    height: 100px;
+    margin: auto;
+    padding: 10px 137.5px;
+    box-sizing: border-box;
+}
+
+/*section1 = h825px
+section2 h615px
+section3 h605px
+footer h 205px
+
+
+color :
+
+butto1 sect1 rgb(43.63.72)
+button 2 sec 2 rgb(39.174.97)
+button 3 sec3 rgb(white)
+sect
+
+/*-----------------------FIn Header---------------*/
+
+/*-----------------------Main---------------*/
+
+main{
+
+    width:1275px;
+    height: 2045px;
+    margin: auto;
+    padding: 10px 137.5px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*-----------------------Fin Main---------------*/
+
+/*-----------------------Footer---------------*/
+
+footer{
+    width:1275px;
+    height: 205px;
+    margin: auto;
+    padding: 10px 137.5px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*-----------------------Fin Footer---------------*/
