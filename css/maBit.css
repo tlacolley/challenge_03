@@ -1,21 +1,4 @@
-
-h1, nav, li{
-    display: inline-block;
-}
-/*-----------------------Header---------------*/
-header{
-    width:1275px;
-    height: 100px;
-    margin: auto;
-    padding: 10px 137.5px;
-    box-sizing: border-box;
-    }
-    /*-----------------------Main---------------*/
-.Part01{
-    background-image: url("../img/banner.png");
-    background-color: rgb(39, 174, 97);
-}
-
+/*                test */
 /*section1 = h825px
 section2 h615px
 section3 h605px
@@ -27,38 +10,136 @@ color :
 butto1 sect1 rgb(43.63.72)
 button 2 sec 2 rgb(39.174.97)
 button 3 sec3 rgb(white)
-sect
+sect*/
+body{
+    background-color: grey;
+}
 
-/*-----------------------FIn Header---------------*/
+h1, nav, li{
+    display: inline-block;
+}
+h1{
+    color: rgb(43,63,72);
+    font-weight: bold;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(43,63,72);
+}
+/*-----------------------Nav---------------*/
+nav{
+    margin-left: 300px;
 
-
-main{
-
+}
+nav li{
+    margin-right: 42px;
+    text-transform: uppercase;
+}
+header, section, footer{
     width:1275px;
-    height: 2045px;
     margin: auto;
     padding: 10px 137.5px;
     box-sizing: border-box;
+    font-family: 'News Cycle', sans-serif;
+}
+/*-----------------------Header---------------*/
+header{
+    height: 100px;
+    background-color: white;
+
+    }
+    /*-----------------------Main---------------*/
+    main{
+
+
+
+    }
+    section{
+        text-align: center;
+
+    }
+    button{
+        text-transform: uppercase;
+        font-size: 13px;
+        height: 70px;
+        width: 265px;
+        border-radius: 10px;
+        border: none;
+        display: inline-block;
+        position: relative;
+
+    }
+
+.part01{
+    background-image: url("../img/banner.png");
+    background-color: rgb(39, 174, 97);
+    background-size: cover;
+    height: 825px;
+    color: white;
+}
+.part01 img{
+    border-radius: 10em;
+    height: 160px;
+    margin: 120px 20px 0px;
+
+}
+.part01 button{
+    background-color: rgb(43,63,72);
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+h3{
+    font-size: 22px;
+}
+
+p{
+    font-size: 16px;
 }
 
 
-
-
-
-/*-----------------------Fin Main---------------*/
-
+.part02{
+    height: 615px;
+    background-color: white;
+}
+.part02 h2{
+    color: rgb(43,63,72);
+}
+.part02 h3, .part02 p,{
+    color: #656565;
+}
+.part02 button{
+    background-color: rgb(39, 174, 97);
+}
+.part03{
+    height: 605px;
+    background-color: rgb(39, 174, 97);
+    color: white;
+}
+.part03 h3{
+    opacity: 0.5;
+}
+.part03 button{
+    background-color: white;
+    color: rgb(39, 174, 97);
+}
 /*-----------------------Footer---------------*/
 
 footer{
-    width:1275px;
+    background-color: white;
+    text-align: center;
     height: 205px;
-    margin: auto;
-    padding: 10px 137.5px;
-    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #656565;
+    padding: 90px 0;
 }
+footer p{
+    display: inline-block;
+    letter-spacing: 0.2em;
 
 
-
-
-
-/*-----------------------Fin Footer---------------*/
+}

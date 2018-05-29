@@ -27,8 +27,8 @@ th,
 label,
 textarea,
 caption,
-details, 
-figure, 
+details,
+figure,
 hgroup {
 	font-size: 1em; /* equiv 14px */
 	line-height: 1.5;
@@ -104,9 +104,9 @@ label {
 }
 ul,
 ol {
-	padding-left: 2em;
+	
 }
-code, 
+code,
 pre,
 samp {
 	white-space: pre-wrap;
