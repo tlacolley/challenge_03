@@ -20,24 +20,27 @@ h1{
     color: rgb(43,63,72);
     font-weight: bold;
     font-size: 2.5em;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 5em;
 }
 a{
     text-decoration: none;
     color: rgb(43,63,72);
 }
 ul{
-    margin-left: 50%;
+    /* margin-left: 20%; */
 
 
 
 }
 /*-----------------------Nav---------------*/
 nav{
-    margin-left: 300px;
+    margin:auto;
     max-width: 1000px;
 }
 nav li{
-    margin-right: 42px;
+    margin-right: 2em;
     text-transform: uppercase;
 }
 .lol{
@@ -59,7 +62,7 @@ div, article{
 
 /*-----------------------Header---------------*/
 header{
-    height: 100px;
+    height: 10em;
     background-color: white;
 
     }
@@ -77,7 +80,7 @@ header{
         line-height: 4em;
         /* height: 6%; */
         width: 15em;
-        border-radius: 10px;
+        border-radius: 1rem;
         border: none;
         margin-top: 10%;
         margin-bottom: 10%;
@@ -93,7 +96,7 @@ header{
 .part01 img{
     border-radius: 10em;
     /* height: 160px; */
-    margin: 120px 20px 0px;
+    margin: 2em;
 
 }
 .part01 .button{
@@ -150,7 +153,7 @@ footer{
     /* height: 205px; */
     text-transform: uppercase;
     color: #656565;
-    padding: 90px 0;
+    padding: 6em 0;
 }
 footer p{
     display: inline-block;
