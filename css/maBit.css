@@ -12,7 +12,7 @@ button 2 sec 2 rgb(39.174.97)
 button 3 sec3 rgb(white)
 sect*/
 
-h1, nav, li{
+h1, ul, li{
     display: inline-block;
 
 }
@@ -25,9 +25,16 @@ a{
     text-decoration: none;
     color: rgb(43,63,72);
 }
+ul{
+    margin-left: 50%;
+
+
+
+}
 /*-----------------------Nav---------------*/
 nav{
     margin-left: 300px;
+    width: 1000px;
 }
 nav li{
     margin-right: 42px;
@@ -43,7 +50,7 @@ header, main, footer{
     box-sizing: border-box; */
     font-family: 'News Cycle', sans-serif;
 }
-nav, article{
+div, article{
     width: 1000px;
     margin: auto;
 
@@ -66,9 +73,11 @@ header{
         text-align: center;
 
     }
-    button{
+    .button{
+        display:inline-block;
         text-transform: uppercase;
         font-size: 13px;
+        line-height: 5em;
         height: 70px;
         width: 265px;
         border-radius: 10px;
@@ -89,7 +98,7 @@ header{
     margin: 120px 20px 0px;
 
 }
-.part01 button{
+.part01 .button{
     background-color: rgb(43,63,72);
     color : white;
 }
@@ -118,7 +127,7 @@ p{
 .part02 h3, .part02 p,{
     color: #656565;
 }
-.part02 button{
+.part02 .button{
     background-color: rgb(39, 174, 97);
     color : white;
 }
@@ -130,7 +139,7 @@ p{
 .part03 h3{
     opacity: 0.5;
 }
-.part03 button{
+.part03 .button{
     background-color: white;
     color: rgb(39, 174, 97);
 }
