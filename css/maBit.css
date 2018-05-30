@@ -11,12 +11,10 @@ butto1 sect1 rgb(43.63.72)
 button 2 sec 2 rgb(39.174.97)
 button 3 sec3 rgb(white)
 sect*/
-body{
-    background-color: grey;
-}
 
 h1, nav, li{
     display: inline-block;
+
 }
 h1{
     color: rgb(43,63,72);
@@ -30,19 +28,28 @@ a{
 /*-----------------------Nav---------------*/
 nav{
     margin-left: 300px;
-
 }
 nav li{
     margin-right: 42px;
     text-transform: uppercase;
 }
-header, section, footer{
-    width:1275px;
-    margin: auto;
+.lol{
+    color: rgb(39, 174, 97);
+}
+header, main, footer{
+    width:100%;
+    /* margin: auto;
     padding: 10px 137.5px;
-    box-sizing: border-box;
+    box-sizing: border-box; */
     font-family: 'News Cycle', sans-serif;
 }
+nav, article{
+    width: 1000px;
+    margin: auto;
+
+}
+
+
 /*-----------------------Header---------------*/
 header{
     height: 100px;
@@ -66,9 +73,7 @@ header{
         width: 265px;
         border-radius: 10px;
         border: none;
-        display: inline-block;
-        position: relative;
-
+        margin-top: 75px;
     }
 
 .part01{
@@ -86,6 +91,7 @@ header{
 }
 .part01 button{
     background-color: rgb(43,63,72);
+    color : white;
 }
 h2{
     font-size: 50px;
@@ -114,6 +120,7 @@ p{
 }
 .part02 button{
     background-color: rgb(39, 174, 97);
+    color : white;
 }
 .part03{
     height: 605px;
