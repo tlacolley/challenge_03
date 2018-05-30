@@ -19,7 +19,7 @@ h1, ul, li{
 h1{
     color: rgb(43,63,72);
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2.5em;
 }
 a{
     text-decoration: none;
@@ -34,7 +34,7 @@ ul{
 /*-----------------------Nav---------------*/
 nav{
     margin-left: 300px;
-    width: 1000px;
+    max-width: 1000px;
 }
 nav li{
     margin-right: 42px;
@@ -51,7 +51,7 @@ header, main, footer{
     font-family: 'News Cycle', sans-serif;
 }
 div, article{
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
 
 }
@@ -64,37 +64,35 @@ header{
 
     }
     /*-----------------------Main---------------*/
-    main{
 
-
-
-    }
     section{
         text-align: center;
+        padding-top: 5%;
 
     }
     .button{
         display:inline-block;
         text-transform: uppercase;
-        font-size: 13px;
-        line-height: 5em;
-        height: 70px;
-        width: 265px;
+        font-size: 1.5em;
+        line-height: 4em;
+        /* height: 6%; */
+        width: 15em;
         border-radius: 10px;
         border: none;
-        margin-top: 75px;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
 .part01{
     background-image: url("../img/banner.png");
     background-color: rgb(39, 174, 97);
-    background-size: cover;
-    height: 825px;
+    background-size: 100%;
+    /* height: 825px; */
     color: white;
 }
 .part01 img{
     border-radius: 10em;
-    height: 160px;
+    /* height: 160px; */
     margin: 120px 20px 0px;
 
 }
@@ -103,23 +101,24 @@ header{
     color : white;
 }
 h2{
-    font-size: 50px;
+    font-size: 4em;
     font-weight: bold;
 
 }
 
 h3{
-    font-size: 22px;
+    font-size: 1.6em;
 }
 
 p{
-    font-size: 16px;
+    font-size: 1.2em;
 }
 
 
 .part02{
-    height: 615px;
+    /* height: 615px; */
     background-color: white;
+    color: #656565;
 }
 .part02 h2{
     color: rgb(43,63,72);
@@ -132,7 +131,7 @@ p{
     color : white;
 }
 .part03{
-    height: 605px;
+    /* height: 605px; */
     background-color: rgb(39, 174, 97);
     color: white;
 }
@@ -148,7 +147,7 @@ p{
 footer{
     background-color: white;
     text-align: center;
-    height: 205px;
+    /* height: 205px; */
     text-transform: uppercase;
     color: #656565;
     padding: 90px 0;
@@ -156,6 +155,7 @@ footer{
 footer p{
     display: inline-block;
     letter-spacing: 0.2em;
+    font-size: 1em;
 
 
 }
