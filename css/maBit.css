@@ -20,9 +20,9 @@ h1{
     color: rgb(43,63,72);
     font-weight: bold;
     font-size: 2.5em;
-    padding-top: 1em;
+    padding-top: 0.5em;
     padding-left: 2em;
-    padding-right: 5em;
+    padding-right: 2em;
 }
 a{
     text-decoration: none;
@@ -30,7 +30,9 @@ a{
 }
 ul{
     /* margin-left: 20%; */
-
+    padding:0, 10% ;
+    margin: 0 0 0 3%;
+    
 
 
 }
